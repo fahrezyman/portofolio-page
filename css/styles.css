@@ -80,6 +80,7 @@ body {
   background-image: url("../image/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   position: relative;
 }
 .hero::after {
@@ -135,6 +136,9 @@ body {
   }
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
+  }
+  .hero {
+    background-size: contain;
   }
 }
 /* Phone */
