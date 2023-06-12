@@ -18,7 +18,7 @@ document.addEventListener("click", function (e) {
 
 const productContainer = document.querySelector(".row-product ul");
 
-fetch("/json/merch-product.json")
+fetch("json/merch-product.json")
   .then((response) => response.json())
   .then((data) => {
     // console.log(data)
