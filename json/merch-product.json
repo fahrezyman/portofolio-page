@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "T-Shirts"
+    },
+    {
+      "id": 2,
+      "name": "Mug"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "FahrezyCode </> T-Shirts",
+      "description": "Daily Fahrezy's T-Shirts, people said that wearing this will upgrade your skills code",
+      "price": 75000,
+      "image": "image/shirts.jpg",
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "FahrezyCode </> Mug",
+      "description": "Daily Fahrezy's Mug, people said drinking Coffe with this Mug will improve your focus",
+      "price": 50000,
+      "image": "image/mug.jpg",
+      "category": 2
+    }
+  ]
+}
