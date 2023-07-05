@@ -78,7 +78,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../image/header-bg.png");
+  /* background-image: url("../image/header-bg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -96,6 +96,16 @@ body {
     rgba(33, 33, 33, 1) 5%,
     rgba(255, 255, 255, 0) 25%
   );
+}
+aside {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+aside img {
+  width: 100%;
 }
 .hero .content {
   padding: 1.4rem 7%;
@@ -208,6 +218,60 @@ body {
 .card button:hover {
   opacity: 0.7;
 }
+/* Footer Starts */
+
+footer {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-section {
+  flex: 0 1 30%;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
 /* Media Queries */
 /* Animation for Border */
 @keyframes anim-border {
